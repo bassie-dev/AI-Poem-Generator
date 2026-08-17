@@ -1,32 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Poem generator</title>
-        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
-    <link rel="stylesheet" href="src/index.css"/>
-</head>
-<body>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/index.css" />
+  </head>
+  <body>
     <form id="poem-form">
-        <input
-          type="text"
-          placeholder="Enter the topic of your poem"
-          autofocus
-          required
-          autocomplete="off"
-          class="input"
-          id="user-instructions"
-        />
-        <input type="submit" class="button" />
-      </form>
-      <main class="poem" id="poem">
-       
-      </main>
+      <input
+        type="text"
+        placeholder="Enter the topic of your poem"
+        autofocus
+        required
+        autocomplete="off"
+        class="input"
+        id="user-instructions"
+      />
+      <input type="submit" class="button" />
+      <div class="hint">i.e: Love, Books or Dogs</div>
+    </form>
+    <main class="poem" id="poem"></main>
     <footer>
-    This AI project was coded by <a href="https://github.com/bassie-dev">Bassie</a>,open sourced on <a href="https://github.com/bassie-dev/AI-Poem-Generator">Github</a>  and hosted on <a href="https://app.netlify.com/projects/ai-poem-generator-b/configuration/general">netlify</a> 
+      This AI project was coded by
+      <a href="https://github.com/bassie-dev">Bassie</a>,open sourced on
+      <a href="https://github.com/bassie-dev/AI-Poem-Generator">Github</a> and
+      hosted on
+      <a
+        href="https://app.netlify.com/projects/ai-poem-generator-b/configuration/general"
+        >netlify</a
+      >
     </footer>
     <script src="src/index.js"></script>
-</body>
+  </body>
 </html>
